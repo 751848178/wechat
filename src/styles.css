@@ -1,1 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
+html,body{width:100%;height:100%;}
+.c-green{color:#62b900;}
+.bg-green{background:#62b900;}
