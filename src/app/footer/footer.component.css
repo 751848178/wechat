@@ -1,3 +1,5 @@
-.footer-nav{border-top:1px solid #DDD;background:#FFF;}
-.footer-nav a{color:#ABABAB;}
-.footer-nav .nav-link.active{color:#62b900;}
+.footer-nav{padding-top:0.2rem;border-top:1px solid #DDD;line-height:0.8rem;background:#FFF;}
+.nav-item,.nav-item a{color:#ABABAB;}
+.nav-item.active .nav-link,.nav-item.active .icon{color:#62b900;}
+p{margin:0;}
+.icon{font-size:24px;}
