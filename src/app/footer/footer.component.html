@@ -1,18 +1,18 @@
-<ul class="footer-nav nav fixed-bottom nav-fill">
-	<li class="nav-item" [class.active]="navIndex == 0" (click)="navIndex = 0">
+<div class="footer-nav nav fixed-bottom nav-fill">
+	<a class="nav-item" [routerLink]="['/header']" [class.active]="navIndex == 0" (click)="navIndex = 0">
 		<p><i class="icon ion-ios-chatbubble"></i></p>
-		<p><a class="nav-link" href="#">微信</a></p>
-	</li>
-	<li class="nav-item" [class.active]="navIndex == 1" (click)="navIndex = 1">
+		<p><span class="nav-link">微信</span></p>
+	</a>
+	<a class="nav-item" [routerLink]="['/header']" [class.active]="navIndex == 1" (click)="navIndex = 1">
 		<p><i class="icon ion-person-stalker"></i></p>
-		<p><a class="nav-link" href="#">通讯录</a></p>
-	</li>
-	<li class="nav-item" [class.active]="navIndex == 2" (click)="navIndex = 2">
+		<p><span class="nav-link">通讯录</span></p>
+	</a>
+	<a class="nav-item" [routerLink]="['/header']" [class.active]="navIndex == 2" (click)="navIndex = 2">
 		<p><i class="icon ion-compass"></i></p>
-		<p><a class="nav-link" href="#">发现</a></p>
-	</li>
-	<li class="nav-item" [class.active]="navIndex == 3" (click)="navIndex = 3">
+		<p><span class="nav-link">发现</span></p>
+	</a>
+	<a class="nav-item" [routerLink]="['/header']" [class.active]="navIndex == 3" (click)="navIndex = 3">
 		<p><i class="icon ion-person"></i></p>
-		<p><a class="nav-link" href="#">我</a></p>
-	</li>
-</ul>
+		<p><span class="nav-link">我</span></p>
+	</a>
+</div>
