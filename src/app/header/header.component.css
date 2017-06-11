@@ -1,4 +1,5 @@
 @import url("https://cdn.bootcss.com/ionicons/2.0.1/css/ionicons.min.css");
-.header-bar{padding:10px 0;background:#3a3a3a;color:#FFF;}
-.icon-span{display:inline-block;width:20px;height:20px;}
-.icon{font-size: 20px;color:#FFF;font-weight: lighter;}
+.header-bar{height:3.65rem;line-height:3.57rem;background:#3a3a3a;color:#FFF;}
+.header-bar h5{margin-bottom:0;height:3.57rem;line-height:3.57rem;}
+.icon-span{display:inline-block;width:1.43rem;height:1.43rem;}
+.icon{font-size: 1.43rem;color:#FFF;font-weight: lighter;}

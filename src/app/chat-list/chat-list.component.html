@@ -1,0 +1,14 @@
+<div class="computer-login text-center" [class.show]="isComputerLogined">
+	<i class="icon"></i>
+	<span>Windows 微信已登录</span>
+</div>
+<ul class="chat-list">
+	<li *ngFor="let item of chatList">
+		<div class="head-img"><img src="{{item.headImg}}"/></div>
+		<div class="chat-content">
+			<p class="user-name">{{item.name}}</p>
+			<p class="content">{{item.chatContent}}</p>
+		</div>
+		<div class="time">{{item.time}}</div>
+	</li>
+</ul>

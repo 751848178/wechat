@@ -7,16 +7,23 @@ import {AppComponent} from './app.component';
 import {FooterComponent} from './footer/footer.component';
 import {HeaderComponent} from './header/header.component';
 import {RouterModule, Routes} from "@angular/router";
+import { ChatComponent } from './chat/chat.component';
+import { ChatListComponent } from './chat-list/chat-list.component';
 
 const routeConfig: Routes = [
-	{path: "header", component: HeaderComponent}
+	{path: "", redirectTo:"chatList",pathMatch: "full"},
+	{path: "header", component: HeaderComponent},
+	{path: "chatList", component: ChatListComponent},
+	{path: "chat", component: ChatComponent}
 ]
 
 @NgModule({
 	declarations: [
 		AppComponent,
 		FooterComponent,
-		HeaderComponent
+		HeaderComponent,
+		ChatComponent,
+		ChatListComponent
 	],
 	imports: [
 		BrowserModule,

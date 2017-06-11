@@ -1,4 +1,4 @@
-.footer-nav{padding-top:0.2rem;border-top:1px solid #DDD;line-height:0.8rem;background:#FFF;}
+.footer-nav{padding-top:0.2rem;border-top:1px solid #DDD;height:4rem;line-height:0.8rem;background:#FFF;}
 .nav-item,.nav-item:hover{color:#ABABAB;text-decoration:none;}
 .nav-item.active .nav-link,.nav-item.active .icon{color:#62b900;}
 p{margin:0;}
