@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
 	selector: 'app-chat-list',
@@ -11,7 +12,7 @@ export class ChatListComponent implements OnInit {
 
 	private chatList = [];
 
-	constructor() {
+	constructor(private route:Router) {
 		this.chatList = [{
 			headImg: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1497123240206&di=e9ac3a0ab48e9ad09793718aecc93d6b&imgtype=0&src=http%3A%2F%2Fwww.qqzhi.com%2Fuploadpic%2F2014-09-01%2F161431787.jpg",
 			name: "赵兴勃",
@@ -71,6 +72,11 @@ export class ChatListComponent implements OnInit {
 	}
 
 	ngOnInit() {
+	}
+
+	toChatDetail(){
+		console.log("111");
+		this.route.navigate(["/chat"]);
 	}
 
 }

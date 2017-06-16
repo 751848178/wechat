@@ -3,7 +3,7 @@
 	<span>Windows 微信已登录</span>
 </div>
 <ul class="chat-list">
-	<li *ngFor="let item of chatList">
+	<li *ngFor="let item of chatList" (click)="toChatDetail()">
 		<div class="head-img"><img src="{{item.headImg}}"/></div>
 		<div class="chat-content">
 			<p class="user-name">{{item.name}}</p>
